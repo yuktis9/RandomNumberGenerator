@@ -5,6 +5,8 @@
  */
 package randomnumbergenerator;
 
+import java.util.Random;
+
 /**
  *
  * @author yuktisarwadia
@@ -16,6 +18,10 @@ public class RandomNumberGenerator {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Random num = new Random();
+        int generatedNumber = num.nextInt(20);
+        System.out.println("Random Generated Number is: "+generatedNumber);
+        
     }
     
 }
